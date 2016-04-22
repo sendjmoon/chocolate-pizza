@@ -72,7 +72,7 @@ header {
 
 .article {
   display: flex;
-  
+  flex-direction: column;
 }
 
 #article-title {
