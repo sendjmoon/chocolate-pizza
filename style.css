@@ -1,4 +1,70 @@
-#header-logo {
+body, main {
+  display: flex;
+  color: gray;
+  width: 901px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header {
+  height: 70px;
+  width: 901px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header-logo {
   font-family: 'Yellowtail', cursive;
-  font-size: 30px;
+  font-size: 43px;
+  height: 70px;
+  width: 250px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#logo-img {
+  width: 42px;
+  height: 45px;
+  margin-top: 12px;
+}
+
+#title {
+  color: black;
+  margin: 0;
+  height: 32px;
+}
+
+#header-subtitle {
+  font-family: 'Kanit', sans-serif;
+  font-size: 10px;
+  margin: 0px;
+  margin-top: 13px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.header-icons {
+  width: 690px;
+  height: 72px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+}
+
+#rss-icon {
+  margin-left: 10px;
+}
+
+.breaker {
+  width: 901px;
+  height: 12px;
+  background-color: lightgray;
 }
