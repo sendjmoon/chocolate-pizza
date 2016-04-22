@@ -70,6 +70,11 @@ header {
   background-color: lightgray;
 }
 
+.article {
+  display: flex;
+  
+}
+
 #article-title {
   width: 901px;
   display: flex;
