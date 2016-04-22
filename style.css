@@ -12,8 +12,8 @@ header {
   width: 901px;
   padding-bottom: 10px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: space-between;
 }
 
 .header-logo {
@@ -47,11 +47,12 @@ header {
 }
 
 .header-icons {
-  width: 686px;
+  width: 450px;
   height: 72px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  self-align: flex-end;
 }
 
 .header-icons img {
@@ -91,7 +92,8 @@ header {
 
 #art-title {
   color: black;
-  font-family: 'Share', cursive;
+  /*font-family: 'Share', cursive;*/
+  font-family: impact;
   font-size: 50px;
   margin-bottom: 0px;
   margin-top: 20px;
@@ -107,7 +109,7 @@ header {
 
 #print-box {
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   width: 451px;
   height: 103px;
   display: flex;
@@ -118,10 +120,24 @@ header {
 #print-icon {
   width: 13px;
   height: 10px;
+  margin-bottom: 2px;
 }
 
 #article-text {
   width: 901px;
   font-size: 19px;
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.tbl-ing {
+  font: 16px "Comic Sans MS", cursive;
+  background-image: url("images/list-bg.png");
+  display: flex;
+  align-content: space-between;
+}
+
+.list-left, .list-right {
+  width: 325px;
+  list-style-image: url("images/unchecked-icon.png");
 }
