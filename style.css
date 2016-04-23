@@ -23,6 +23,7 @@ header {
   width: 250px;
   display: flex;
   flex-flow: column wrap;
+  justify-content: flex-start;
 }
 
 #logo-img {
@@ -66,9 +67,13 @@ header {
 }
 
 .breaker {
-  width: 901px;
+  /*width: 901px;
   height: 12px;
-  background-color: lightgray;
+  background-color: lightgray;*/
+  height: 14px;
+  width: 100%;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
+  border: 0;
 }
 
 .article {
@@ -164,7 +169,7 @@ header {
 
 #van-info {
   margin: 0;
-  width: 60%;
+  width: 80%;
   margin-top: 3px;
   margin-left: 18px;
 }
@@ -186,4 +191,21 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  width: 100%;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+footer p {
+  margin: 0;
+}
+
+#small-logo-img {
+  margin-bottom: 25px;
 }
